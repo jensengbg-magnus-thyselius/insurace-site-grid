@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #FFFFFF;
-font-family: Fira Sans;
+font-family: 'Fira Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
@@ -46,6 +46,14 @@ font-weight: 500;
 line-height: 24px;
 color: rgba(0, 0, 0, 0.6);
 }
+
+h4 {
+font-family: 'Frank Ruhl Libre', serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+}
+
 
 .wrapper {
   width: 70vw;
@@ -202,10 +210,34 @@ color: rgba(0, 0, 0, 0.6);
   
 } 
 
-.card { 
+.card1 { 
   width: 236px;
   height: 150px;;
   background-color: #C7DDEA;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30%;
+  margin-left: 6%;
+}
+
+.card2 { 
+  width: 236px;
+  height: 150px;;
+  background-color: #FAB131;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30%;
+  margin-left: 6%;
+}
+
+.card3 { 
+  width: 236px;
+  height: 150px;;
+  background-color: #F17949;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -340,7 +372,7 @@ text-align: center;
 
 
 .takemeupagain {
-  font-family: Fira Sans;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
