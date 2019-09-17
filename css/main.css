@@ -47,13 +47,6 @@ line-height: 24px;
 color: rgba(0, 0, 0, 0.6);
 }
 
-h4 {
-  font-family: 'Frank Ruhl Libre', serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .wrapper {
   width: 70vw;
   margin: auto;
@@ -156,6 +149,29 @@ h4 {
   align-content: center;
 } 
 
+.container3-child4 {
+  grid-area: 8 / 2 / 10 / 6;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center;
+  grid-gap: 5%;
+  margin-top: 10%;
+}
+
+.cardpic1 { 
+  min-height: 200px;
+  max-height: 308px;
+  min-width: 240px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: -90%;
+  
+}
+
 /* FOURTH SECTION */
 
 .container4 {
@@ -187,47 +203,29 @@ h4 {
 } 
 
 .card { 
-  min-height: 200px;
-  max-height: 308px;
-  min-width: 240px;
-  background-color: #FFFFFF;
+  width: 236px;
+  height: 150px;;
+  background-color: #C7DDEA;
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin-top: 50%;
-  padding: 10px;
+  margin-top: 30%;
+  margin-left: 6%;
 }
 
-.cardpic1 {
-  position: absolute;
-  margin-left: -6.5%;
-  margin-top: -2%;
-  min-height: 175px;
-  max-height: 298px;
-  min-width: 230px;
-  background-color: #FF00EE;
-  display: flex;
+.child {
+  height: 100%;
+  width: 80%;
 }
-
-.cardpic2 {
-  position: absolute;
-  margin-left: 15%;
-  margin-top: -2%;
-  min-height: 175px;
-  max-height: 298px;
-  min-width: 230px;
-  background-color: #FF00EE;
+.adult {
+  height: 100%;
+  width: 80%;
+  
 }
-
-.cardpic3 {
-  position: absolute;
-  margin-top: -2%;
-  margin-left: 36.3%;
-  min-height: 175px;
-  max-height: 298px;
-  min-width: 230px;
-  background-color: #FF00EE;
+.old {
+  height: 100%;
+  width: 80%;
 }
 
 
@@ -369,7 +367,7 @@ font-size: 45px;
 line-height: 100%;
 letter-spacing: -0.02em;
 }
-}
+
 
 .covered {
 color: #000000;
