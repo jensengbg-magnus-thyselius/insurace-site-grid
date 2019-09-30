@@ -61,7 +61,7 @@ line-height: 20px;
 }
 
 /* FIRST SECTION */
-.container1 {
+.header {
   display: grid;
   min-height: 544px;
   grid-template-columns: repeat(6, 1fr); 
@@ -69,7 +69,7 @@ line-height: 20px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 } 
-.div1 {
+.header-box1 {
   display: grid;
   min-height: 544px;
   grid-area: 1 / 1 / 9 / 4;
@@ -80,21 +80,21 @@ line-height: 20px;
   grid-row-gap: 0px; 
 }
   
-.div1-child1 {
+.box1-item1 {
    grid-area: 2 / 1 / 5 / 4;
    margin-left: 130px;
 
   } 
-.div1-child2 { 
+.box1-item2 { 
   grid-area: 5 / 1 / 7 / 3;
   margin-left: 130px;
 } 
-.div1-child3 {
+.box1-item3 {
   grid-area: 5 / 2 / 9 / 4;
 
 } 
 
-.div2 {
+.header-box2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +107,7 @@ line-height: 20px;
   
 } 
 
-.div3 {
+.header-box3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,10 +117,50 @@ line-height: 20px;
   grid-template-columns: repeat(6, 1fr); 
   grid-template-rows: repeat(3, 1fr);
   background-color: #FAB131;
-} 
+}
+
+.learnmore {
+  color: #FFFFFF;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  }
+  
+  
+  .covered {
+  color: #000000;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  }
+  
+  .jointoday {
+  color: #FFFFFF;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  }
+
+  .button {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    height: 20%;
+    width: 50%;
+  }
 
 /* SECOND SECTION */
-.container2 {
+.nav {
   display: flex;
   min-height: 40px;
   background-color: #FFFFFF;
@@ -128,7 +168,7 @@ line-height: 20px;
 
 /* THIRD SECTION */
 
-.container3 { 
+.main { 
   display: grid; 
   grid-template-columns: repeat(6, 1fr); 
   grid-template-rows: repeat(9, 1fr); 
@@ -138,26 +178,26 @@ line-height: 20px;
   background-color: #A9A19E;
 }
 
-.container3-child1 {
+.main-box1 {
    grid-area: 2 / 1 / 5 / 4;
    display: flex;
    justify-content: center;
    text-align: left;
 } 
-.container3-child2 { 
+.main-box2 { 
   grid-area: 5 / 1 / 6 / 3;
   display: flex;
   justify-content: center;
 
 } 
-.container3-child3 { 
+.main-box3 { 
   grid-area: 2 / 4 / 6 / 7;
   display: flex;
   justify-content: center;
   align-content: center;
 } 
 
-.container3-child4 {
+.main-box4 {
   grid-area: 8 / 2 / 10 / 6;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -167,22 +207,22 @@ line-height: 20px;
   margin-top: 10%;
 }
 
-.cardpic1 { 
+.card { 
   min-height: 200px;
-  max-height: 308px;
   min-width: 240px;
   background-color: white;
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  align-items: center;
   margin-bottom: -90%;
   
 }
 
 /* FOURTH SECTION */
 
-.container4 {
+.main2 {
   display: grid;
   min-height: 680px;
   background-color: #FAB131;
@@ -192,67 +232,61 @@ line-height: 20px;
   grid-row-gap: 0px; 
 }
 
-.container4-child1 {
+.main2-aboutus {
   grid-area: 4 / 2 / 9 / 6;
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
 } 
-.container4-child2 { 
-  grid-area: 1 / 2 / 4 / 6;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-content: center;
-  margin-top: -25%;
-  grid-gap: 5%;
-  
-} 
 
-.card1 { 
-  width: 236px;
-  height: 150px;;
+
+.cardpic-box1 { 
+  width: 90%;
+  height: 20vh;
   background-color: #C7DDEA;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-top: 30%;
-  margin-left: 6%;
+  margin-top: -60%;
+
 }
 
-.card2 { 
-  width: 236px;
-  height: 150px;;
+.cardpic-box2 { 
+  width: 90%;
+  height: 20vh;
   background-color: #FAB131;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-top: 30%;
-  margin-left: 6%;
+  margin-top: -60%;
+  
 }
 
-.card3 { 
-  width: 236px;
-  height: 150px;;
+.cardpic-box3 { 
+  width: 90%;
+  height: 20vh;
   background-color: #F17949;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-top: 30%;
-  margin-left: 6%;
+  margin-top: -60%;
+  
 }
 
 .child {
   height: 100%;
-  width: 80%;
+  width: 70%;
 }
 .adult {
   height: 100%;
-  width: 80%;
+  width: 70%;
   
 }
 .old {
@@ -260,10 +294,39 @@ line-height: 20px;
   width: 80%;
 }
 
+.personal {
+  color: #FFFFFF;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  }
+  
+  .aboutus {
+  color: #FFFFFF;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  }
+
+  .main-button {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    height: 40%;
+    width: 30%;
+  }
 
 /* FIFTH SECTION */
   
-.container5 {
+.miniboxes {
   display: grid;
   min-height: 680px; 
   grid-template-columns: repeat(6, 1fr); 
@@ -361,7 +424,7 @@ line-height: 20px;
 
 /* SIXTH SECTION */
 
-.container6 {
+.footer {
 background-color: #A9A19E;
 min-height: 68px;
 display: flex;
@@ -385,56 +448,9 @@ text-align: center;
 
 /* SEVENTH SECTION */
 
-.container7 {
+.grey-footerbar {
   background-color: #777574;
 min-height: 340px;
-}
-
-
-.learnmore {
-color: #FFFFFF;
-font-family: 'Frank Ruhl Libre', serif;
-font-weight: 900;
-font-size: 45px;
-line-height: 100%;
-letter-spacing: -0.02em;
-}
-
-
-.covered {
-color: #000000;
-font-family: 'Frank Ruhl Libre', serif;
-font-weight: 900;
-font-size: 45px;
-line-height: 100%;
-letter-spacing: -0.02em;
-}
-
-.jointoday {
-color: #FFFFFF;
-font-family: 'Frank Ruhl Libre', serif;
-font-weight: 900;
-font-size: 45px;
-line-height: 100%;
-letter-spacing: -0.02em;
-}
-
-.personal {
-color: #FFFFFF;
-font-family: 'Frank Ruhl Libre', serif;
-font-weight: 900;
-font-size: 45px;
-line-height: 100%;
-letter-spacing: -0.02em;
-}
-
-.aboutus {
-color: #FFFFFF;
-font-family: 'Frank Ruhl Libre', serif;
-font-weight: 900;
-font-size: 45px;
-line-height: 100%;
-letter-spacing: -0.02em;
 }
 
 .button {
@@ -449,14 +465,140 @@ letter-spacing: -0.02em;
   width: 50%;
 }
 
-.button2 {
-  font-family: 'Fira Sans', sans-serif;
+
+/* CONTACT PAGE */
+
+
+.contact-text {
+  font-family: Fira Sans;
   font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  border-radius: 200px;
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-  height: 40%;
-  width: 30%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
 }
+
+.contact-wrapper{
+margin: auto;
+max-width: 70%;
+}
+
+.contact-header {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-height: 340px;
+    background: #C7DDEA;
+}
+
+.hello { 
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    grid-area: 3 / 3 / 4 / 5; }
+
+.manchild {
+    grid-area: 1 / 5 / 6 / 7;
+    margin-top: auto;
+}
+    
+.contact-main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background: #A9A19E;
+    min-height: 544px;
+}
+
+.whats {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    grid-area: 2 / 1 / 4 / 4;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #FFFFFF;
+    width: 314px;
+    height: 140px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.textarea input[type=text], select {
+    width: 334px;
+    height: 166px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .Ruta1 input[type=text], select {
+    width: 334px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .Ruta1 {
+    grid-area: 3 / 4 / 4 / 6;
+  }
+
+  .textarea {
+    grid-area: 4 / 4 / 7 / 6;
+  }
+
+  .send {
+        grid-area: 7 / 5 / 8 / 6;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        border-radius: 200px;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+        height: 50%;
+        width: 90%
+    }
+    
+    .contact-footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background: url(/images/map-contact.png);
+    min-height: 407px;
+    max-height: 407px;
+    padding: 60px;
+    }
+
+    .yellowbox {
+        display:flex;
+        grid-area: 1 / 1 / 5 / 4; 
+        background: #FAB131;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .point {
+        grid-area: 4 / 5 / 5 / 6; 
+        margin-right: 30%;
+    }
+
+    .visit {
+        font-family: Frank Ruhl Libre;
+        font-style: normal;
+        font-weight: 900;
+       font-size: 45px;
+       color: #FFFFFF;
+    }
