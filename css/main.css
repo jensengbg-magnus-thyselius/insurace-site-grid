@@ -1,153 +1,152 @@
 ul {
-list-style: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #FFFFFF;
-font-family: 'Fira Sans', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-opacity: 0.4;
-width: 100%;
-display: flex;
-justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    opacity: 0.4;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 li {
-float: left;
+    float: left;
 }
 
 li a {
-display: block;
-color: #000000;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .button a {
-overflow: hidden;
-text-decoration: none;
-color: #b67d7d;
+    overflow: hidden;
+    text-decoration: none;
+    color: #b67d7d;
 }
 
-
 .button2 a {
-  overflow: hidden;
-  text-decoration: none;
-  color: #000000;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000000;
 }
 
 p {
-font-family: 'Fira Sans', sans-serif;
-font-size: 14px;
-font-weight: 500;
-line-height: 24px;
-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 h4 {
-font-family: 'Frank Ruhl Libre', serif;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
 }
-
 
 .wrapper {
-  width: 70vw;
-  margin: auto;
+    width: 70vw;
+    margin: auto;
 }
+
 
 /* FIRST SECTION */
+
 .header {
-  display: grid;
-  min-height: 544px;
-  grid-template-columns: repeat(6, 1fr); 
-  grid-template-rows: repeat(8, 1fr); 
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-} 
-.header-box1 {
-  display: grid;
-  min-height: 544px;
-  grid-area: 1 / 1 / 9 / 4;
-  background-color: #C7DDEA; 
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(8, 1fr); 
-  grid-column-gap: 0px;
-  grid-row-gap: 0px; 
+    display: grid;
+    min-height: 544px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
-  
+
+.header-box1 {
+    display: grid;
+    min-height: 544px;
+    grid-area: 1 / 1 / 9 / 4;
+    background-color: #C7DDEA;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
 .box1-item1 {
-   grid-area: 2 / 1 / 5 / 4;
-   margin-left: 130px;
+    grid-area: 2 / 1 / 5 / 4;
+    margin-left: 130px;
+}
 
-  } 
-.box1-item2 { 
-  grid-area: 5 / 1 / 7 / 3;
-  margin-left: 130px;
-} 
+.box1-item2 {
+    grid-area: 5 / 1 / 7 / 3;
+    margin-left: 130px;
+}
+
 .box1-item3 {
-  grid-area: 5 / 2 / 9 / 4;
-
-} 
+    grid-area: 5 / 2 / 9 / 4;
+}
 
 .header-box2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  min-width: 272px;
-  grid-area: 1 / 4 / 5 / 7;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  background-color: #F17949;
-  
-} 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-width: 272px;
+    grid-area: 1 / 4 / 5 / 7;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #F17949;
+}
 
 .header-box3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  min-width: 272px;
-  grid-area: 5 / 4 / 9 / 7;
-  grid-template-columns: repeat(6, 1fr); 
-  grid-template-rows: repeat(3, 1fr);
-  background-color: #FAB131;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-width: 272px;
+    grid-area: 5 / 4 / 9 / 7;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #FAB131;
 }
 
 .learnmore {
-  color: #FFFFFF;
-  font-family: 'Frank Ruhl Libre', serif;
-  font-weight: 900;
-  font-size: 45px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  }
-  
-  
-  .covered {
-  color: #000000;
-  font-family: 'Frank Ruhl Libre', serif;
-  font-weight: 900;
-  font-size: 45px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  }
-  
-  .jointoday {
-  color: #FFFFFF;
-  font-family: 'Frank Ruhl Libre', serif;
-  font-weight: 900;
-  font-size: 45px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  }
+    color: #FFFFFF;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
 
-  .button {
+.covered {
+    color: #000000;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.jointoday {
+    color: #FFFFFF;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.button {
     font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -157,162 +156,163 @@ line-height: 20px;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     height: 20%;
     width: 50%;
-  }
+}
+
 
 /* SECOND SECTION */
+
 .nav {
-  display: flex;
-  min-height: 40px;
-  background-color: #FFFFFF;
+    display: flex;
+    min-height: 40px;
+    background-color: #FFFFFF;
 }
+
 
 /* THIRD SECTION */
 
-.main { 
-  display: grid; 
-  grid-template-columns: repeat(6, 1fr); 
-  grid-template-rows: repeat(9, 1fr); 
-  grid-column-gap: 0px;
-  grid-row-gap: 0px; 
-  min-height: 612px;
-  background-color: #A9A19E;
+.main1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    min-height: 612px;
+    background-color: #A9A19E;
 }
 
-.main-box1 {
-   grid-area: 2 / 1 / 5 / 4;
-   display: flex;
-   justify-content: center;
-   text-align: left;
-} 
-.main-box2 { 
-  grid-area: 5 / 1 / 6 / 3;
-  display: flex;
-  justify-content: center;
-
-} 
-.main-box3 { 
-  grid-area: 2 / 4 / 6 / 7;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-} 
-
-.main-box4 {
-  grid-area: 8 / 2 / 10 / 6;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-content: center;
-  grid-gap: 5%;
-  margin-top: 10%;
+.main1-box1 {
+    grid-area: 2 / 1 / 5 / 4;
+    display: flex;
+    justify-content: center;
+    text-align: left;
 }
 
-.card { 
-  min-height: 200px;
-  min-width: 240px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: -90%;
-  
+.main1-box2 {
+    grid-area: 5 / 1 / 6 / 3;
+    display: flex;
+    justify-content: center;
 }
+
+.main1-box3 {
+    grid-area: 2 / 4 / 6 / 7;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main1-box4 {
+    grid-area: 8 / 2 / 10 / 6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    grid-gap: 5%;
+    margin-top: 10%;
+}
+
+.card {
+    min-height: 200px;
+    min-width: 240px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -90%;
+}
+
 
 /* FOURTH SECTION */
 
 .main2 {
-  display: grid;
-  min-height: 680px;
-  background-color: #FAB131;
-  grid-template-columns: repeat(6, 1fr); 
-  grid-template-rows: repeat(10, 1fr); 
-  grid-column-gap: 0px;
-  grid-row-gap: 0px; 
+    display: grid;
+    min-height: 680px;
+    background-color: #FAB131;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
 .main2-aboutus {
-  grid-area: 4 / 2 / 9 / 6;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-} 
-
-
-.cardpic-box1 { 
-  width: 90%;
-  height: 20vh;
-  background-color: #C7DDEA;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin-top: -60%;
-
+    grid-area: 4 / 2 / 9 / 6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
-.cardpic-box2 { 
-  width: 90%;
-  height: 20vh;
-  background-color: #FAB131;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin-top: -60%;
-  
+.cardpic-box1 {
+    width: 90%;
+    height: 30vh;
+    background-color: #C7DDEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: -60%;
 }
 
-.cardpic-box3 { 
-  width: 90%;
-  height: 20vh;
-  background-color: #F17949;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin-top: -60%;
-  
+.cardpic-box2 {
+    width: 90%;
+    height: 30vh;
+    background-color: #FAB131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: -60%;
+}
+
+.cardpic-box3 {
+    width: 90%;
+    height: 30vh;
+    background-color: #F17949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: -60%;
 }
 
 .child {
-  height: 100%;
-  width: 70%;
+    height: 100%;
+    width: 70%;
 }
+
 .adult {
-  height: 100%;
-  width: 70%;
-  
+    height: 100%;
+    width: 70%;
 }
+
 .old {
-  height: 100%;
-  width: 80%;
+    height: 100%;
+    width: 80%;
 }
 
 .personal {
-  color: #FFFFFF;
-  font-family: 'Frank Ruhl Libre', serif;
-  font-weight: 900;
-  font-size: 45px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  }
-  
-  .aboutus {
-  color: #FFFFFF;
-  font-family: 'Frank Ruhl Libre', serif;
-  font-weight: 900;
-  font-size: 45px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  }
+    color: #FFFFFF;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
 
-  .main-button {
+.aboutus {
+    color: #FFFFFF;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.main-button {
     font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -322,169 +322,174 @@ line-height: 20px;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     height: 40%;
     width: 30%;
-  }
+}
+
 
 /* FIFTH SECTION */
-  
+
 .miniboxes {
-  display: grid;
-  min-height: 680px; 
-  grid-template-columns: repeat(6, 1fr); 
-  grid-template-rows: repeat(10, 1fr); 
-  grid-column-gap: 0px;
-  grid-row-gap: 0px; 
+    display: grid;
+    min-height: 680px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
-  
-.minibox1 { 
-  grid-area: 1 / 1 / 6 / 3;
-  background-color: #C7DDEA;
-  min-height: 340px;
-  font-family: Frank Ruhl Libre;
-  font-weight: 900;
-  font-size: 45px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-} 
-.minibox2 { 
-  grid-area: 1 / 3 / 6 / 5;
-  background-color: #FFFFFF;
-  min-height: 340px;
-  font-family: Fira Sans;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-} 
-.minibox3 { 
-  grid-area: 1 / 5 / 6 / 7; 
-  background-color: #EBEBEB;
-  min-height: 340px;
-  font-family: Fira Sans;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+
+.minibox1 {
+    grid-area: 1 / 1 / 6 / 3;
+    background-color: #C7DDEA;
+    min-height: 340px;
+    font-family: Frank Ruhl Libre;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-.minibox4 { 
-  grid-area: 6 / 1 / 11 / 3; 
-  background-color: #FFFFFF;
-  min-height: 340px;
-  font-family: Fira Sans;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-} 
-.minibox5 { 
-  grid-area: 6 / 3 / 11 / 5; 
-  background-color: #F17949;
-  min-height: 340px;
-  font-family: Fira Sans;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-} 
-.minibox6 { 
-  grid-area: 6 / 5 / 11 / 7; 
-  background-color: #FFFFFF;
-  min-height: 340px;
-  font-family: Fira Sans;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-} 
+
+.minibox2 {
+    grid-area: 1 / 3 / 6 / 5;
+    background-color: #FFFFFF;
+    min-height: 340px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.minibox3 {
+    grid-area: 1 / 5 / 6 / 7;
+    background-color: #EBEBEB;
+    min-height: 340px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.minibox4 {
+    grid-area: 6 / 1 / 11 / 3;
+    background-color: #FFFFFF;
+    min-height: 340px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.minibox5 {
+    grid-area: 6 / 3 / 11 / 5;
+    background-color: #F17949;
+    min-height: 340px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.minibox6 {
+    grid-area: 6 / 5 / 11 / 7;
+    background-color: #FFFFFF;
+    min-height: 340px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 
 
 /* SIXTH SECTION */
 
 .footer {
-background-color: #A9A19E;
-min-height: 68px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-text-align: center;
+    background-color: #A9A19E;
+    min-height: 68px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-
 
 .takemeupagain {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
 
 /* SEVENTH SECTION */
 
 .grey-footerbar {
-  background-color: #777574;
-min-height: 340px;
+    background-color: #777574;
+    min-height: 340px;
 }
 
 .button {
-  font-family: 'Fira Sans', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  border-radius: 200px;
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-  height: 20%;
-  width: 50%;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    height: 20%;
+    width: 50%;
 }
 
 
 /* CONTACT PAGE */
 
-
 .contact-text {
-  font-family: Fira Sans;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 0.8);
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.contact-wrapper{
-margin: auto;
-max-width: 70%;
+.contact-wrapper {
+    margin: auto;
+    max-width: 70%;
 }
 
 .contact-header {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
@@ -493,18 +498,19 @@ max-width: 70%;
     background: #C7DDEA;
 }
 
-.hello { 
+.hello {
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
-    grid-area: 3 / 3 / 4 / 5; }
+    grid-area: 3 / 3 / 4 / 5;
+}
 
 .manchild {
     grid-area: 1 / 5 / 6 / 7;
     margin-top: auto;
 }
-    
+
 .contact-main {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -530,14 +536,17 @@ max-width: 70%;
     letter-spacing: -0.02em;
 }
 
-.textarea input[type=text], select {
+.textarea input[type=text],
+select {
     width: 334px;
     height: 166px;
     display: inline-block;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  .Ruta1 input[type=text], select {
+}
+
+.Ruta1 input[type=text],
+select {
     width: 334px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -545,30 +554,30 @@ max-width: 70%;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
 
-  .Ruta1 {
+.Ruta1 {
     grid-area: 3 / 4 / 4 / 6;
-  }
+}
 
-  .textarea {
+.textarea {
     grid-area: 4 / 4 / 7 / 6;
-  }
+}
 
-  .send {
-        grid-area: 7 / 5 / 8 / 6;
-        font-family: 'Fira Sans', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 10px;
-        line-height: 12px;
-        border-radius: 200px;
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-        height: 50%;
-        width: 90%
-    }
-    
-    .contact-footer {
+.send {
+    grid-area: 7 / 5 / 8 / 6;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    height: 50%;
+    width: 90%
+}
+
+.contact-footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -578,27 +587,27 @@ max-width: 70%;
     min-height: 407px;
     max-height: 407px;
     padding: 60px;
-    }
+}
 
-    .yellowbox {
-        display:flex;
-        grid-area: 1 / 1 / 5 / 4; 
-        background: #FAB131;
-        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+.yellowbox {
+    display: flex;
+    grid-area: 1 / 1 / 5 / 4;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    .point {
-        grid-area: 4 / 5 / 5 / 6; 
-        margin-right: 30%;
-    }
+.point {
+    grid-area: 4 / 5 / 5 / 6;
+    margin-right: 30%;
+}
 
-    .visit {
-        font-family: Frank Ruhl Libre;
-        font-style: normal;
-        font-weight: 900;
-       font-size: 45px;
-       color: #FFFFFF;
-    }
+.visit {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    color: #FFFFFF;
+}
